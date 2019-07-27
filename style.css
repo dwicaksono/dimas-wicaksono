@@ -167,3 +167,80 @@ body {
   text-decoration: none;
   color: #754ef9;
 }
+
+/* Contact */
+.page-container-contact {
+}
+.contact-row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 100px;
+  height: 400px;
+  padding: 30px;
+}
+.contact-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.single-form {
+  margin-top: 30px;
+}
+
+.single-form input,
+.single-form textarea {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0 25px;
+  font-size: 16px;
+  color: #8a8fa3;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+  outline: none;
+}
+
+.single-form textarea {
+  height: 135px;
+  padding-top: 10px;
+  resize: none;
+}
+.main-btn {
+  height: 40px;
+  border: none;
+  background: #754ef9;
+  width: 150px;
+  font-size: 1em;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.22);
+}
+.main-btn:hover {
+  border: 1px solid #754ef9;
+  background: white;
+  color: #754ef9;
+}
+.map {
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  height: 56px;
+  background: #754ef9;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.social-footer i {
+  letter-spacing: 20px;
+  font-size: 25px;
+}
