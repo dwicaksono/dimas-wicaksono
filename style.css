@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Inconsolata", monospace, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #fbfbfb;
 }
