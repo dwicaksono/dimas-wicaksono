@@ -40,20 +40,18 @@ body {
   color: #754ef9;
 }
 /* banner */
-.page-banner {
-  margin-top: 100px;
-  border: 2px solid green;
+
+#home {
+  padding-top: 100px;
 }
 .home-banner {
-  margin-top: 100px;
   color: white;
   background: #754ef9;
   box-shadow: 0 5px 8px 0 rgba(118, 78, 249, 0.55);
 }
 .home-welcome {
-  margin-top: 100px;
   opacity: 1;
-  height: 400px;
+  height: 100vh;
 }
 .name {
   width: 50%;
@@ -168,7 +166,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 20px 100px;
   height: 400px;
   padding: 30px;
 }
@@ -225,7 +223,7 @@ body {
 
 footer {
   text-align: center;
-  height: 56px;
+  height: 100px;
   background: #754ef9;
   color: white;
   display: flex;
