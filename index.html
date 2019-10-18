@@ -19,11 +19,18 @@
     <div class="menu">
       <div class="label">Menu</div>
       <div class="spacer"></div>
-      <div class="item"><span>about me</span></div>
+      <div class="item">
+        <a href="#home"><span>home</span></a>
+      </div>
+      <div class="item">
+        <a href="#about"><span>about me</span></a>
+      </div>
       <div class="item"><span>project</span></div>
-      <div class="item"><span>touch me</span></div>
+      <div class="item">
+        <a href="#contact"><span>touch me</span></a>
+      </div>
     </div>
-    <header class="header">
+    <header class="header" id="home">
       <div class="logo-box">
         <i class="fas fa-code"></i>
         <div class="spinner"></div>
@@ -45,11 +52,69 @@
             <i class="fab fa-facebook-square"></i>
           </a>
         </div>
-        <!-- <div class="head-text-social-left"></div> -->
-        <!-- <div class="btn ">
-          <a href="#" class="btn-white">our project</a>
-        </div> -->
       </div>
     </header>
+    <section class="about" id="about">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <div class="about-box">
+        <P>h!.. i'm dimas</P>
+        <P>fullstack developer</P>
+        <P>monggo see ma project</P>
+      </div>
+    </section>
+    <section class="project"></section>
+    <div class="background" id="contact">
+      <div class="container">
+        <div class="screen">
+          <div class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
+            </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
+          </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+              </div>
+              <div class="app-contact">CONTACT INFO : +62 81 314 928 111</div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input
+                    class="app-form-control"
+                    placeholder="NAME"
+                    value="DIMAS WICAKSONO"
+                  />
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="EMAIL" />
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="CONTACT NO" />
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control" placeholder="MESSAGE" />
+                </div>
+                <div class="app-form-group buttons">
+                  <button class="app-form-button">CANCEL</button>
+                  <button class="app-form-button">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
