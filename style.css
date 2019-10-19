@@ -340,13 +340,13 @@ span {
 }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.25em;
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border-radius: 0.25em; */
+  /* box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25); */
   box-sizing: border-box;
   left: 50%;
   padding: 10vmin;
-  position: fixed;
+  position: absolute;
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -587,9 +587,21 @@ h1 {
 }
 
 /* close section contact */
+
+/* section project */
 .project {
   height: 100vh;
   background-color: rgba(240, 255, 240, 0.5);
   clip-path: polygon(0 24vh, 100% 0, 100% 100%, 0% 100%);
   /* clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%); */
+  box-sizing: border-box;
+}
+.project > h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 2rem;
+  color: #4776e6;
+  font-weight: 100;
+  font-size: 5rem;
 }
